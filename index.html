@@ -6,78 +6,54 @@
 <title>Signature render test</title>
 </head>
 <body style="margin:0;padding:20px;background:transparent;">
-  <!-- Container fixed to 600px for email signature preview -->
-  <div style="width:600px;max-width:100%;font-family:Arial, Helvetica, sans-serif;color:#000;">
+  <!-- Container fixed to 300px for email signature -->
+  <div style="width:300px;max-width:100%;font-family:Arial, Helvetica, sans-serif;color:#000;">
     <!-- Top block -->
-    <div style="padding:8px 0 24px 0;">
-      <div style="font-size:30px;line-height:33px;font-weight:500;">Best regards,</div>
-      <div style="font-size:30px;line-height:33px;font-weight:700;margin-top:6px;text-transform:none;">
+    <div style="padding:4px 0 12px 0;">
+      <div style="font-size:15px;line-height:17px;font-weight:500;">Best regards,</div>
+      <div style="font-size:15px;line-height:17px;font-weight:700;margin-top:3px;text-transform:none;">
         SIMONE GIACOMELLI I CEO
       </div>
-
-      <div style="margin-top:22px;">
-        <a href="mailto:simone@premai.io" style="font-size:30px;line-height:33px;font-weight:500;color:#000;text-decoration:underline;">
+      <div style="margin-top:11px;">
+        <a href="mailto:simone@premai.io" style="font-size:15px;line-height:17px;font-weight:500;color:#000;text-decoration:underline;">
           simone@premai.io
         </a>
       </div>
     </div>
-
     <!-- horizontal divider 1 -->
-    <div style="height:2px;background:#000;width:100%;margin:18px 0;"></div>
-
+    <div style="height:1px;background:#000;width:100%;margin:9px 0;"></div>
     <!-- Middle area: icon | vertical line | big slogan -->
     <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
       <tr>
         <!-- left icon column -->
-        <td style="width:50%;vertical-align:middle;padding:28px 16px 28px 0;">
-          <!-- OPTION A: external SVG image (simple) -->
-          <!-- <img src="https://raw.githubusercontent.com/f4u574/prem-test/refs/heads/main/prem_icon_black.svg?token=GHSAT0AAAAAADQ5GX6KWP34KZDLOKKDKQPA2JXZP7A"
-               width="160" height="165" style="display:block;border:0;outline:none;text-decoration:none;" alt="icon"> -->
-
-          <!-- OPTION B: inline SVG (paste your SVG content here and set fill="currentColor" to recolor) -->
-          <!-- Example placeholder circle-pattern SVG - replace with real SVG content -->
-          <div style="width:160px;height:165px;display:block;">
-            <!-- Inline SVG starts -->
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 582 601" width="160" height="165" style="display:block;">
-              <!-- Replace the <path> elements below with your actual SVG. Use fill="currentColor" where shapes are filled -->
-              <g fill="currentColor" color="#000">
-                <circle cx="100" cy="90" r="12"/>
-                <circle cx="130" cy="120" r="10"/>
-                <circle cx="70" cy="140" r="8"/>
-                <!-- ... replace with your complete SVG paths ... -->
-              </g>
-            </svg>
-            <!-- Inline SVG ends -->
-          </div>
+        <td style="width:50%;vertical-align:middle;padding:14px 8px 14px 0;">
+          <img src="https://f4u574.github.io/prem-test/main_large.png?raw=true"
+               width="80" height="83" style="display:block;border:0;outline:none;text-decoration:none;" alt="Prem AI icon">
         </td>
-
         <!-- vertical rule -->
-        <td style="width:2%;vertical-align:middle;padding:28px 8px;">
-          <div style="width:2px;height:216px;background:#000;margin:0 auto;"></div>
+        <td style="width:2%;vertical-align:middle;padding:14px 4px;">
+          <div style="width:1px;height:108px;background:#000;margin:0 auto;"></div>
         </td>
-
         <!-- right big slogan column -->
-        <td style="width:48%;vertical-align:middle;padding:28px 0 28px 16px;">
-          <div style="font-size:46px;line-height:52px;font-weight:700;text-transform:uppercase;">
+        <td style="width:48%;vertical-align:middle;padding:14px 0 14px 8px;">
+          <div style="font-size:23px;line-height:26px;font-weight:700;text-transform:uppercase;">
             OWN YOUR<br>INTELLIGENCE
           </div>
         </td>
       </tr>
     </table>
-
     <!-- horizontal divider 2 -->
-    <div style="height:2px;background:#000;width:100%;margin:18px 0;"></div>
-
+    <div style="height:1px;background:#000;width:100%;margin:9px 0;"></div>
     <!-- Bottom row: PREM AI (left) and premai.io (right) -->
     <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
       <tr>
-        <td style="width:50%;vertical-align:middle;padding:18px 0;">
-          <div style="font-size:30px;line-height:33px;font-weight:700;text-transform:uppercase;">
+        <td style="width:50%;vertical-align:middle;padding:9px 0;">
+          <div style="font-size:15px;line-height:17px;font-weight:700;text-transform:uppercase;">
             PREM AI
           </div>
         </td>
-        <td style="width:50%;text-align:right;vertical-align:middle;padding:18px 0;">
-          <a href="https://premai.io" style="font-size:30px;line-height:33px;font-weight:500;color:#000;text-decoration:underline;">
+        <td style="width:50%;text-align:right;vertical-align:middle;padding:9px 0;">
+          <a href="https://premai.io" style="font-size:15px;line-height:17px;font-weight:500;color:#000;text-decoration:underline;">
             premai.io
           </a>
         </td>
