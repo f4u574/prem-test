@@ -1,0 +1,63 @@
+<table width="600" cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; color:#000;">
+  <!-- Top block -->
+  <tr>
+    <td style="padding:0 0 12px 0; font-size:16px; line-height:20px;">
+      Best regards,<br>
+      <span style="font-weight:bold;">SIMONE GIACOMELLI | CEO</span>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:0 0 20px 0; font-size:16px; line-height:20px;">
+      <a href="mailto:simone@premai.io" style="color:#000; text-decoration:underline;">simone@premai.io</a>
+    </td>
+  </tr>
+
+  <!-- Horizontal line -->
+  <tr>
+    <td style="border-top:1px solid #000; padding-top:20px;"></td>
+  </tr>
+
+  <!-- Logo + vertical line + slogan -->
+  <tr>
+    <td style="padding:20px 0;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+
+          <!-- Icon -->
+          <td width="150" style="vertical-align:middle; padding-right:30px;">
+            <img src="https://raw.githubusercontent.com/f4u574/prem-test/refs/heads/main/prem_icon_black.svg" width="120" alt="PREM icon" style="display:block;">
+          </td>
+
+          <!-- Vertical line -->
+          <td width="1" style="border-left:1px solid #000; padding:0 30px;"></td>
+
+          <!-- Slogan -->
+          <td style="vertical-align:middle; font-size:24px; line-height:28px; font-weight:bold; text-transform:uppercase;">
+            OWN YOUR<br>INTELLIGENCE
+          </td>
+
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- Horizontal line -->
+  <tr>
+    <td style="border-top:1px solid #000; padding-top:20px;"></td>
+  </tr>
+
+  <!-- Bottom block -->
+  <tr>
+    <td style="padding:20px 0 4px 0; font-size:16px; font-weight:bold; text-transform:uppercase;">
+      PREM AI
+    </td>
+  </tr>
+
+  <tr>
+    <td style="padding:0 0 0 0; font-size:16px;">
+      <a href="https://premai.io" style="color:#000; text-decoration:underline;">premai.io</a>
+    </td>
+  </tr>
+
+</table>
